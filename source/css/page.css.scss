@@ -1,0 +1,137 @@
+body {
+  font-size: 15px;
+  color: #444;
+  background: #222;
+
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  width: 988px;
+  max-width: 100%;
+  position: relative;
+  // border: solid 1px red;
+}
+
+a {
+  text-decoration: none;
+  color: #aaa;
+
+  &:focus, &:hover, &:active {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+#topbar {
+  background: #111;
+  border-bottom: 1px solid #333;
+  // background: url("/assets/topbar-background.jpg") repeat-x;
+
+  #logo {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    a {
+      background: url("/img/lyonrb.png") no-repeat;
+      display: block;
+      width: 248px;
+      height: 144px;
+      text-decoration: none;
+      text-indent: -9999px;
+      margin: 0 auto;
+      float: left;
+    }
+  }
+
+  nav {
+    height: 5em;
+
+    ul {
+      margin: 0 auto;
+      position: absolute;
+      right: 0;
+      top: 0;
+
+      margin: 0;
+
+      li {
+        display: inline;
+        float: left;
+
+        a {
+          margin-left: 0.5em;
+          font-size: 1.2em;
+          line-height: 2em;
+          padding: 1em;
+          display: block;
+
+          text-transform: uppercase;
+          color: #aaa;
+        }
+      }
+    }
+  }
+}
+
+#pageheader {
+  position: relative;
+  padding: 0;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  min-height: 130px;
+  margin: 0;
+
+  background: #222;
+
+  .when-and-where {
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 60px;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #aaa;
+
+    h2 {
+      margin: 0;
+    }
+  }
+
+  h1 {
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 1.25em;
+    font-size: 2.4em;
+    color: white;
+
+    margin: 0;
+    padding: 0;
+  }
+}
+
+#content {
+  background: white;
+  min-height: 500px;
+}
+
+footer {
+  background: #222;
+
+  .links {
+    padding: 1em;
+    height: 2em;
+    line-height: 2em;
+
+    .previous-editions {
+      float: left;
+    }
+    .newsletter {
+      float: right;
+    }
+  }
+}
