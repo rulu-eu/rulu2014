@@ -80,7 +80,6 @@ a {
   position: relative;
   padding: 0;
   padding-top: 1.5em;
-  padding-bottom: 1.5em;
   min-height: 130px;
   margin: 0;
 
@@ -117,7 +116,7 @@ a {
 
 #content {
   background: white;
-  min-height: 460px;
+  min-height: 500px;
 
   .container .nested {
     padding: 1em;
@@ -158,10 +157,18 @@ footer {
     }
   }
 
-  #pageheader .when-and-where {
-    left: 10px;
-    width: 150px;
-    font-size: 0.8em;
+  #content {
+    min-height: 300px;
+  }
+
+  #pageheader {
+    min-height: 115px;
+
+    .when-and-where {
+      left: 10px;
+      width: 150px;
+      font-size: 0.8em;
+    }
   }
 }
 
