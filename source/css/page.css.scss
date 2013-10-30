@@ -94,7 +94,7 @@ a {
 
     text-align: center;
     text-transform: uppercase;
-    color: white;
+    color: #ddd;
 
     .when, .where {
       margin: 0;
@@ -121,6 +121,10 @@ a {
 
   .container .nested {
     padding: 1em;
+  }
+
+  h2 {
+    color: #333;
   }
 }
 
