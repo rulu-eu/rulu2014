@@ -12,7 +12,6 @@ body {
   width: 988px;
   max-width: 100%;
   position: relative;
-  // border: solid 1px red;
 }
 
 a {
@@ -33,14 +32,14 @@ a {
   #logo {
     z-index: 1;
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 5px;
+    top: 20px;
 
     a {
-      background: url("/img/lyonrb.png") no-repeat;
+      background: url("/img/lyonrb_revamped_white.png") no-repeat;
       display: block;
-      width: 248px;
-      height: 144px;
+      width: 226px;
+      height: 125px;
       text-decoration: none;
       text-indent: -9999px;
       margin: 0 auto;
@@ -53,21 +52,19 @@ a {
 
     ul {
       margin: 0 auto;
+      margin-right: 1em;
       position: absolute;
       right: 0;
       top: 0;
-
-      margin: 0;
 
       li {
         display: inline;
         float: left;
 
         a {
-          margin-left: 0.5em;
+          margin-left: 1em;
           font-size: 1.2em;
           line-height: 2em;
-          padding: 1em;
           display: block;
 
           text-transform: uppercase;
@@ -90,15 +87,17 @@ a {
 
   .when-and-where {
     position: absolute;
-    padding-left: 15px;
-    padding-top: 60px;
+    left: 5px;
+    top: 60px;
+    width: 226px;
 
     text-align: center;
     text-transform: uppercase;
-    color: #aaa;
+    color: white;
 
-    h2 {
+    .when, .where {
       margin: 0;
+      font-weight: 900;
     }
   }
 
@@ -109,14 +108,19 @@ a {
     font-size: 2.4em;
     color: white;
 
-    margin: 0;
     padding: 0;
+    margin: 0;
+    margin-right: 0.5em;
   }
 }
 
 #content {
   background: white;
-  min-height: 500px;
+  min-height: 460px;
+
+  .container .nested {
+    padding: 1em;
+  }
 }
 
 footer {
@@ -130,8 +134,28 @@ footer {
     .previous-editions {
       float: left;
     }
+
     .newsletter {
       float: right;
     }
+  }
+}
+
+@media screen and (max-device-width: 640px) {
+  #topbar #logo {
+    top: 50px;
+    left: 10px;
+
+    a {
+      background: url("/img/lyonrb_revamped_white_small.png") no-repeat;
+      width: 150px;
+      height: 83px;
+    }
+  }
+
+  #pageheader .when-and-where {
+    left: 10px;
+    width: 150px;
+    font-size: 0.8em;
   }
 }
