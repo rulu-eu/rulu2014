@@ -19,10 +19,6 @@ RuLu is a Ruby Conference in Lyon, France.
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
 
-## Credits
-
-* Fabien Catteau (@fcat)
-
 ## License
 
 See LICENSE.md file.
