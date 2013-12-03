@@ -1,10 +1,37 @@
+$topbar-background: #8a0f0c;
+$topbar-border: #9f2723;
+$topbar-link: #db9693;
+$topbar-active-link: white;
+
+$header-background: #951b16;
+$header-title: white;
+
+$content-background: white;
+$content-title: #333;
+$content-text: #444;
+$content-link: red;
+$content-active-link: red;
+
+$footer-text: $topbar-link;
+$footer-link: $topbar-link;
+$footer-active-link: $topbar-active-link;
+$footer-background: $topbar-background;
+
 body {
   font-size: 15px;
-  color: #444;
-  background: #222;
+  color: $topbar-link;
+  background: $topbar-background;
 
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+
+  &:focus, &:hover, &:active {
+    text-decoration: none;
+  }
 }
 
 .container {
@@ -14,32 +41,20 @@ body {
   position: relative;
 }
 
-a {
-  text-decoration: none;
-  color: #aaa;
-
-  &:focus, &:hover, &:active {
-    text-decoration: none;
-    color: white;
-  }
-}
-
 #topbar {
-  background: #111;
-  border-bottom: 1px solid #333;
-  // background: url("/assets/topbar-background.jpg") repeat-x;
+  background: $topbar-background;
+  border-bottom: 1px solid $topbar-border;
 
   #logo {
     z-index: 1;
     position: absolute;
-    left: 5px;
-    top: 20px;
+    left: 0px;
 
     a {
-      background: url("/img/lyonrb_revamped_white.png") no-repeat;
+      background: url("/img/rulu_2014.png") no-repeat;
       display: block;
-      width: 226px;
-      height: 125px;
+      width: 270px;
+      height: 205px;
       text-decoration: none;
       text-indent: -9999px;
       margin: 0 auto;
@@ -69,7 +84,11 @@ a {
           display: block;
 
           text-transform: uppercase;
-          color: #aaa;
+          color: $topbar-link;
+
+          &:focus, &:hover, &:active {
+            color: $topbar-active-link;
+          }
         }
       }
     }
@@ -80,33 +99,17 @@ a {
   position: relative;
   padding: 0;
   padding-top: 1.5em;
-  min-height: 130px;
+  min-height: 65px;
   margin: 0;
 
-  background: #222;
-
-  .when-and-where {
-    position: absolute;
-    left: 5px;
-    top: 60px;
-    width: 226px;
-
-    text-align: center;
-    text-transform: uppercase;
-    color: #ddd;
-
-    .when, .where {
-      margin: 0;
-      font-weight: 900;
-    }
-  }
+  background: $header-background;
 
   h1 {
     text-align: right;
     text-transform: uppercase;
-    line-height: 1.25em;
+    line-height: 1.20em;
     font-size: 2.4em;
-    color: white;
+    color: $header-title;
 
     padding: 0;
     margin: 0;
@@ -115,7 +118,9 @@ a {
 }
 
 #content {
-  background: white;
+  color: $content-text;
+  background: $content-background;
+
   min-height: 500px;
 
   .container .nested {
@@ -123,12 +128,30 @@ a {
   }
 
   h2 {
-    color: #333;
+    margin-top: 3em;
+    color: $content-title;
+  }
+
+  a {
+    color: $content-link;
+
+    &:focus, &:hover, &:active {
+      color: $content-active-link;
+    }
   }
 }
 
 footer {
-  background: #222;
+  background: $footer-background;
+  color: $footer-text;
+
+  a {
+    color: $footer-link;
+
+    &:focus, &:hover, &:active {
+      color: $footer-active-link;
+    }
+  }
 
   .links {
     padding: 1em;
@@ -147,7 +170,7 @@ footer {
 
 @media screen and (max-device-width: 640px) {
   #topbar #logo {
-    top: 50px;
+    top: 42px;
     left: 10px;
 
     a {
@@ -159,16 +182,14 @@ footer {
 
   #content {
     min-height: 300px;
+
+    h2 {
+      margin-top: 1em;
+    }
   }
 
   #pageheader {
-    min-height: 115px;
-
-    .when-and-where {
-      left: 10px;
-      width: 150px;
-      font-size: 0.8em;
-    }
+    min-height: 70px;
   }
 }
 
