@@ -35,6 +35,9 @@
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
+# Use directory indexes to get rid og .html suffixes in URLs
+activate :directory_indexes
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
