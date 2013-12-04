@@ -35,9 +35,6 @@
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-# Reload the browser automatically whenever files change
-# activate :livereload
-
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -51,6 +48,16 @@ set :js_dir, 'js'
 
 set :images_dir, 'img'
 
+configure :development do
+  # Reload the browser automatically whenever files change
+  activate :livereload
+
+  # Disable Google Analytics
+  activate :google_analytics do |ga|
+    ga.tracking_id = false
+  end
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -60,11 +67,29 @@ configure :build do
   # activate :minify_javascript
 
   # Enable cache buster
-  # activate :asset_hash
+  activate :asset_hash
+
+  # Create a whole bunch of favicons for various devices and OSes
+  activate :favicon_maker, favicon_maker_base_image: 'img/logo-ruby.png'
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
+  set :relative_links, true
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  # Add Google Analytics support
+  activate :google_analytics do |ga|
+    ga.tracking_id = 'UA-20067061-3'
+  end
+end
+
+activate :deploy do |deploy|
+  # Deploy using git
+  deploy.method = :git
+  # Deploy on git remote named gh-pages
+  deploy.remote = 'origin'
+  # Deploy on branch master of this git remote
+  deploy.branch = 'gh-pages'
 end
