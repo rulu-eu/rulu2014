@@ -1,17 +1,12 @@
 %header
   #topbar
     .container
-      #logo
-        %a{href: '/'}
-          RuLu Conference
+      #logo= link_to 'RuLu Conference', '/'
       %nav
         %ul
-          %li
-            %a{href: '/speakers'} Speakers
-          %li
-            %a{href: '/sponsors'} Sponsors
-          %li
-            %a{href: '/blog'} Blog
+          %li= link_to 'Speakers', '/speakers'
+          %li= link_to 'Sponsors', '/sponsors'
+          %li= link_to 'Blog', '/blog'
 
   #pageheader
     .container
