@@ -51,7 +51,7 @@ a {
     left: 0px;
 
     a {
-      background: url("/img/rulu_2014.png") no-repeat;
+      background: image-url("img/rulu_2014.png") no-repeat;
       display: block;
       width: 270px;
       height: 205px;
@@ -175,7 +175,7 @@ footer {
     left: 10px;
 
     a {
-      background: url("/img/lyonrb_revamped_white_small.png") no-repeat;
+      background: image-url("img/lyonrb_revamped_white_small.png") no-repeat;
       width: 150px;
       height: 83px;
     }

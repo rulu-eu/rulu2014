@@ -2,13 +2,13 @@
   .container
     .links
       .previous-editions
-        %a{href: 'http://2013.rulu.eu'} 2013
+        = link_to '2013', 'http://2013.rulu.eu'
         |
-        %a{href: 'http://2012.rulu.eu'} 2012
+        = link_to '2012', 'http://2012.rulu.eu'
         |
-        %a{href: 'http://2011.rulu.eu'} 2011
+        = link_to '2011', 'http://2011.rulu.eu'
         |
-        %a{href: '/about'} About
+        = link_to 'About', '/about'
 
       .newsletter
-        %a{href: '/newsletter'} Stay tuned!
+        = link_to 'Stay tuned!', '/newsletter'

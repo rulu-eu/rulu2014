@@ -13,10 +13,8 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <%= stylesheet_link_tag "styles", "page" %>
-        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+        <%= stylesheet_link_tag "normalize", "main", "page" %>
+        <%= javascript_include_tag "vendor/modernizr-2.6.1.min" %>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -37,8 +35,7 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <%= javascript_include_tag "plugins", "main" %>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
