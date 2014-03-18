@@ -122,6 +122,7 @@ a {
   background: $content-background;
 
   min-height: 500px;
+  padding-bottom: 40px;
 
   .container .nested {
     padding: 1em;
@@ -217,4 +218,13 @@ footer {
     text-decoration: underline;
     font-style: normal;
   }
+}
+
+.striking {
+  font-size: 120%;
+}
+
+.tickets {
+  font-size: 200%;
+  text-transform: uppercase;
 }
