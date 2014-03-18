@@ -8,10 +8,10 @@ title: RuLu 2014
 %p.striking
   Ruby Lugdunum 2014 (aka RuLu) is a two-day conference
   dedicated to the
-  %a{href: 'https://www.ruby-lang.org/'} Ruby
-  Programming Language.
+  = succeed '.' do
+    = link_to "Ruby Programming Language", 'https://www.ruby-lang.org/'
   It will take place in
-  %a{href:'http://goo.gl/maps/ItngA'} Lyon, France
+  = link_to "Lyon, France", 'http://goo.gl/maps/ItngA'
   19-20th of June.
 
 %h2
@@ -59,8 +59,7 @@ title: RuLu 2014
     It starts on Thursday and ends on Friday.
   But we encourage you stay on Saturday for the Music Festival a.k.a
   = succeed '.' do
-    %a{ href: 'https://en.wikipedia.org/wiki/F%C3%AAte_de_la_Musique' }
-      Fête de la Musique
+    = link_to "Fête de la Musique", 'https://en.wikipedia.org/wiki/F%C3%AAte_de_la_Musique'
 
 %h2
   Call For Proposal
@@ -69,7 +68,7 @@ title: RuLu 2014
   The Call For Proposal is open till the end of March.
   So you still have time to
   = succeed '!' do
-    %a{ href: '/cfp' } submit your talk
+    = link_to "submit your talk", '/cfp'
 
 %p
   %b

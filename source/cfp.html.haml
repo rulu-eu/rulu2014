@@ -7,7 +7,7 @@ title: CFP
   You want to come and give a talk at RuLu?
   Please
   = succeed '!' do
-    %a{href: 'https://docs.google.com/forms/d/1IWp0iVJybc2vY0Nu38s28tsG3yVugnjcBWMHo4cDHIg/viewform'} submit your talk
+    = link_to "submit your talk", 'https://docs.google.com/forms/d/1IWp0iVJybc2vY0Nu38s28tsG3yVugnjcBWMHo4cDHIg/viewform'
 
 %h3
   How it works
@@ -16,8 +16,7 @@ title: CFP
 %ol
   %li
     you submit your talk(s) using the
-    %a{href: 'https://docs.google.com/forms/d/1IWp0iVJybc2vY0Nu38s28tsG3yVugnjcBWMHo4cDHIg/viewform'}
-      CFP form
+    = link_to "CFP Form", 'https://docs.google.com/forms/d/1IWp0iVJybc2vY0Nu38s28tsG3yVugnjcBWMHo4cDHIg/viewform'
   %li
     we may send contact you by email to know more about your talk
   %li
@@ -41,8 +40,7 @@ title: CFP
 %p
   We recommend you have a look at Mike Moore's blog post on
   = succeed '.' do
-    %a{href: 'http://blowmage.com/2013/01/24/writing-conf-proposals'}
-      How to write a conference proposal
+    = link_to "How to write a conference proposal", 'http://blowmage.com/2013/01/24/writing-conf-proposals'
 
 %h3
   What you get
@@ -93,8 +91,7 @@ title: CFP
   Any question?
 %p
   Please send an email to
-  %a{ href: 'mailto:hello@rulu.eu' }
-    hello@rulu.eu
+  = link_to 'hello@rulu.eu', 'mailto:hello@rulu.eu'
   if you've got any question.
 %p
   Now it's about time to submit your talk! :)

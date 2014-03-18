@@ -6,10 +6,12 @@ style: about
 %p
   Ruby Lugdunum (aka Rulu) is a two-day conference
   dedicated to the
-  %a{href: 'https://www.ruby-lang.org/'}Ruby Programming Language.
+  = succeed '.' do
+    = link_to "Ruby Programming Language", 'https://www.ruby-lang.org/'
   %br
   It happens every year in June, in
-  %a{href:'http://goo.gl/maps/ItngA'} Lyon, France.
+  = succeed '.' do
+    = link_to "Lyon, France", 'http://goo.gl/maps/ItngA'
 
 %p
   RuLu features
