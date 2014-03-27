@@ -244,11 +244,11 @@ footer {
       width: 988/2px;
       margin: 0 20px;
     }
+  }
+}
 
-    ul {
-      li {
-        list-style-type: none;
-      }
-    }
+@media screen and (max-device-width: 480px) {
+  #topbar #logo {
+    display: none;
   }
 }
