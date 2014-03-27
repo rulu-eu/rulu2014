@@ -234,3 +234,21 @@ footer {
   margin: auto;
   margin-bottom: 50px;
 }
+
+.homepage {
+  .section {
+    vertical-align: top;
+
+    &.half {
+      display: inline-block;
+      text-align: left;
+      width: 49%;
+    }
+
+    ul {
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+}
