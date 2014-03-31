@@ -235,15 +235,23 @@ footer {
   margin-bottom: 50px;
 }
 
-.homepage {
-  .section {
-    vertical-align: top;
+.section {
+  vertical-align: top;
 
-    &.half {
-      display: inline-block;
-      width: 988/2px;
-      margin: 0 20px;
-    }
+  &.half {
+    display: inline-block;
+    width: 988/2px;
+    margin: 0 20px;
+  }
+}
+
+.sponsor {
+  .section {
+    text-align: left;
+  }
+
+  img {
+    vertical-align: center;
   }
 }
 

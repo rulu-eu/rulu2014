@@ -1,8 +1,29 @@
 ---
+style: homepage
 title: Sponsors
 ---
-%h2
-  Looking for sponsors
+.sponsors.gold
+  %h1 GOLD Sponsors
+
+  .sponsor
+    .section.half
+      %a{ href: 'http://www.mailjet.com', target: '_blank' }
+        = image_tag 'Mailjet_logo.png', width: 472, alt: 'Mailjet'
+    .section.half
+      %h2
+        Mailjet
+      %p
+        %b
+          = link_to 'Mailjet', 'http://www.mailjet.com', target: '_blank'
+          is a real-time Cloud Emailing platform:
+          scalable, agile and flexible!
+      %p
+        Mailjet has a unique that boosts the deliverability of your emails.
+        They provide in-depth insight so you can optimize more than ever.
+        "Because 20% of emails never reach the inbox Mailjet is a logical choice!"
+
+%h1
+  Want to be a sponsor?
 %p
   We are looking for sponsors right now. Please
   %a{mailto: 'ferdinand@rulu.eu'} contact us
