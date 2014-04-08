@@ -1,0 +1,30 @@
+.sponsors {
+  h4 {
+    color: #f2f2f2;
+		margin-top: emCalc(30);
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  li {
+    background: rgba(0,0,0,.1);
+    box-shadow: inset 0 0 5px 5px #191313;
+    box-shadow: inset 0 0 5px 5px rgba(0,0,0,.1);
+    border-radius: 5px;
+    margin: 1%;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+}
+
+.sponsors-block-grid {
+  @include block-grid(2.1, $block-grid-default-spacing, true);
+}
+
+@media #{$small} {
+  .sponsors-block-grid {
+    @include block-grid(3.3, $block-grid-default-spacing, true);
+  }
+}

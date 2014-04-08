@@ -1,30 +1,27 @@
 ---
-style: homepage
 title: Sponsors
 ---
-.sponsors.gold
-  %h1 GOLD Sponsors
-
-  .sponsor
-    .section.half
-      %a{ href: 'http://www.mailjet.com', target: '_blank' }
-        = image_tag 'Mailjet_logo.png', width: 472, alt: 'Mailjet'
-    .section.half
-      %h2
-        Mailjet
+%section
+  .row
+    .small-12.large-10.columns
       %p
-        %b
-          = link_to 'Mailjet', 'http://www.mailjet.com', target: '_blank'
-          is a real-time Cloud Emailing platform:
-          scalable, agile and flexible!
-      %p
-        Mailjet has a unique that boosts the deliverability of your emails.
-        They provide in-depth insight so you can optimize more than ever.
-        "Because 20% of emails never reach the inbox Mailjet is a logical choice!"
+        Please contact
+        %a{mailto: 'ferdinand@rulu.eu'} Ferdinand
+        if you want to become a sponsor!
 
-%h1
-  Want to be a sponsor?
-%p
-  We are looking for sponsors right now. Please
-  %a{mailto: 'ferdinand@rulu.eu'} contact us
-  if you are interested in!
+      %h3 Gold Sponsors
+
+      %article.row
+        .small-6.large-8.columns.text-center
+          %a{ href: 'http://www.mailjet.com', target: '_blank' }
+            = image_tag 'sponsors/Mailjet_logo.png', alt: 'Mailjet'
+
+        .small-6.large-4.columns
+          %header
+            %h3 Mailjet
+            %h5 Real-time Cloud Emailing platform
+            %p
+              %a{ href: 'http://www.mailjet.com', target: '_blank' }
+                Mailjet
+              has a unique that boosts the deliverability of your emails.
+              They provide in-depth insight so you can optimize more than ever.

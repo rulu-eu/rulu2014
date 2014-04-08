@@ -1,19 +1,41 @@
 ---
 title: Speakers
 ---
-%h2
-  First speakers to be announced
-%p
-  The first speakers will be announced during the
-  = succeed '.' do
-    = link_to "CFP Process", '/cfp'
-  = succeed '!' do
-    = link_to "Stay tuned", '/newsletter'
-%p
-  The full speaker lineup is to be published in April.
-%h3
-  Want to become a speaker?
-%p
-  Have a look at the
-  = link_to "Call For Proposal", '/cfp'
-  and submit your talk!
+%section#workshops
+  .row
+    .small-12.large-10.columns
+      %h3 Speakers
+      %p
+        The
+        %b
+          speaker lineup
+        is to be published in the
+        = succeed '!' do
+          %b next few days
+      %p
+        Meanwhile, we are happy to announce the first two speakers giving a talk at RuLu:
+
+      %article.row
+        .small-3.large-2.columns.text-center
+          = image_tag 'speakers/joshua.jpeg'
+
+        .small-9.large-10.columns
+          %header
+            %h3 Joshua Ballanco
+            %p Joshua has worked with Objective-C since 2002 and Ruby since 2004. He has built operating systems with Apple, local news websites with AOL, and somehow managed to finish a Ph.D. along the way. Currently, Joshua is Chief Scientist at Burnside Digital where he works with an amazing team of engineers and designers to solve problems for a wide range of clients. He works and lives in Ankara.
+            %p
+              We're really glad to welcome Joshua Ballanco again. Last year, he gave a splendid talk on
+              = succeed '.' do
+                %a{ href: 'http://iny.r.mailjet.com/redirects/mx6bhjrjsqt3qkbsfncdj8/www.youtube.com/watch?v=U-yxcvAxC6s' }
+
+                  Ruby implementations
+
+
+      %article.row
+        .small-3.large-2.columns.text-center
+          = image_tag 'speakers/paolo.jpeg'
+
+        .small-9.large-10.columns
+          %header
+            %h3 Paolo Perrotta
+            %p Paolo is both a coach and highly skilled Ruby developer. He has a unique talent to bring insights on the Ruby community and the Software Industry

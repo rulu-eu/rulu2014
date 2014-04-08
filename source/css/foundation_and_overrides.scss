@@ -1,0 +1,72 @@
+// We use these to control various global styles
+$body-bg: #f2f2f2;
+$body-font-color: #232221;
+$body-font-family: "proxima-nova", "Helvetica Neue", Arial, Helvetica, sans-serif;
+$body-font-weight: 400;
+$body-font-style: normal;
+
+// We use this to control font-smoothing
+$font-smoothing: antialiased;
+
+// We use these as default colors throughout
+$primary-color: #9f2723;
+$secondary-color: #8a0f0c;
+$alert-color: #c60f13;
+$success-color: #5da423;
+
+// We use this to control whether or not CSS classes come through in the gem files.
+$include-print-styles: false;
+
+// Typography
+$header-font-family: "kulturista-web", Georgia, serif;
+$header-font-weight: 600;
+$header-font-style: normal;
+$header-font-color: #222;
+$header-line-height: 1.4;
+$header-top-margin: .2em;
+$header-bottom-margin: .5em;
+$header-text-rendering: optimizeLegibility;
+
+// Forms
+$button-font-weight: 400;
+
+// Top Bar Variables
+$topbar-bg: #222;
+$topbar-height: 60px;
+$topbar-margin-bottom: 0;
+
+@import 'foundation/components/global'; // *always required
+@import 'foundation/components/grid';
+@import 'foundation/components/visibility';
+@import 'foundation/components/block-grid';
+@import 'foundation/components/type';
+@import 'foundation/components/buttons';
+@import 'foundation/components/forms'; // *requires components/buttons
+//@import 'foundation/components/custom-forms'; // *requires components/buttons, components/forms
+//@import 'foundation/components/button-groups'; // *requires components/buttons
+//@import 'foundation/components/dropdown-buttons'; // *requires components/buttons
+//@import 'foundation/components/split-buttons'; // *requires components/buttons
+//@import 'foundation/components/flex-video';
+//@import 'foundation/components/section';
+@import 'foundation/components/top-bar';  // *requires components/grid
+//@import 'foundation/components/orbit';
+//@import 'foundation/components/reveal';
+//@import 'foundation/components/joyride';
+//@import 'foundation/components/clearing';
+//@import 'foundation/components/alert-boxes';
+//@import 'foundation/components/breadcrumbs';
+//@import 'foundation/components/keystrokes';
+//@import 'foundation/components/labels';
+//@import 'foundation/components/inline-lists';
+//@import 'foundation/components/pagination';
+//@import 'foundation/components/panels';
+//@import 'foundation/components/pricing-tables';
+//@import 'foundation/components/progress-bars';
+//@import 'foundation/components/side-nav';
+//@import 'foundation/components/sub-nav';
+//@import 'foundation/components/switch';
+//@import 'foundation/components/magellan';
+//@import 'foundation/components/tables';
+//@import 'foundation/components/thumbs';
+//@import 'foundation/components/tooltips';
+@import 'foundation/components/dropdown';
