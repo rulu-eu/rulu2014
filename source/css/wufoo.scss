@@ -1,0 +1,76 @@
+.wufoo li {
+  width: 100%;
+  padding: 0;
+}
+
+.wufoo .info {
+  display:none
+}
+
+.wufoo .instruct {
+  top: 1.5em;
+  font-size: 1em;
+  small {
+    font-size: 0.8em;
+  }
+}
+
+.wufoo label.desc, .wufoo legend.desc {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.wufoo label.choice {
+  font-size: 1em;
+}
+
+.wufoo fieldset {
+  padding: 1.25em 0;
+  border: none;
+
+  legend {
+    background: transparent;
+  }
+}
+
+.wufoo .textarea {
+  margin: 0 0 1em 0;
+  padding: 0.5em;
+}
+
+.wufoo input.btTxt {
+  @include button-base;
+  @include button-size;
+  @include button-style;
+}
+
+.wufoo .likert {
+  padding: 0;
+  label, thead td {
+    font-weight: normal;
+    font-size: 1em;
+  }
+}
+
+.wufoo table caption {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.wufoo li.buttons {
+  padding: 20px 0;
+}
+
+.wufoo #saveForm + a {
+  display: none;
+}
+
+.wufoo input[type="checkbox"], .wufoo input[type="radio"] {
+  margin: 0;
+}
+
+@media #{$small} {
+  .wufoo li {
+    width: 60%;
+  }
+}

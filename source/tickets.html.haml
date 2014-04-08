@@ -1,17 +1,23 @@
 ---
-style: homepage
 title: TICKETS
 ---
-%h2
-  Get your tickets for RuLu 2014
+%section.tickets
+  .row
+    %div{ class: 'small-12 large-10 columns' }
 
-%p.striking
-  We still have early bird tickets!
+    %h3
+      RuLu tickets
 
-.weezevent-iframe
-  = partial 'weezevent_iframe'
+    %p
+      We still have early bird tickets.
+      %b Pick one before this is too late!
 
-%p
-  Please send an email to
-  = link_to 'hello@rulu.eu', 'mailto:hello@rulu.eu'
-  if you have any question regarding the tickets.
+    = partial 'weezevent_iframe'
+
+    %br
+    %br
+
+    %p
+      Please send an email to
+      = link_to 'hello@rulu.eu', 'mailto:hello@rulu.eu'
+      if you have any question regarding the tickets.

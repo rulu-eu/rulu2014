@@ -46,10 +46,13 @@ activate :directory_indexes
 # end
 
 set :css_dir, 'css'
-
 set :js_dir, 'js'
-
 set :images_dir, 'img'
+
+# See http://198.101.244.252/blog/shoehorn-zurb-foundation-into-weird-stuff/
+foundation_path = Gem::Specification.find_by_name('zurb-foundation').gem_dir
+set :js_assets_paths, [File.join(foundation_path, 'js')]
+set :sass_assets_paths, [File.join(foundation_path, 'scss')]
 
 configure :development do
   # Reload the browser automatically whenever files change

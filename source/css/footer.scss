@@ -1,0 +1,13 @@
+body > footer {
+  background: #1f1b18;
+  padding: emCalc(60, 0, 30, 0);
+
+  section.credits {
+    padding-top: emCalc(60);
+    color: lighten(#1f1b18, 8%);
+    a {
+      color: lighten(#1f1b18, 8%);
+      text-decoration: underline;
+    }
+  }
+}
