@@ -1,11 +1,13 @@
 .intro-wrapper {
   margin: 0 !important;
-  background-color: #9f2723;
+  background: image_url('bg-wavegrid.png');
   .intro {
+    background: image_url('bg-intro.png') no-repeat left top;
     height: emCalc(300px);
-    padding: emCalc(23px) 0;
+    padding: emCalc(33px) 0;
   }
   h1 {
+    padding-left: -30px;
     color: #f2f2f2;
     font-weight: 700;
     margin-bottom: 0;
@@ -18,7 +20,7 @@
     font-family: $body-font-family;
     font-weight: $body-font-weight;
     &+.subheader {
-      color: darken($primary-color, 15%);
+      color: darken($primary-color, 25%);
     }
   }
 }
