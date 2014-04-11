@@ -12,3 +12,5 @@ gem 'zurb-foundation', '4.3.1', require: false
 
 # Template engines
 gem "haml"
+
+gem 'therubyracer'
