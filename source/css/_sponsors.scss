@@ -21,10 +21,18 @@
 
 .sponsors-block-grid {
   @include block-grid(2.1, $block-grid-default-spacing, true);
+  li {
+    background-color: white;
+    padding: 1em;
+  }
 }
 
 @media #{$small} {
   .sponsors-block-grid {
     @include block-grid(3.3, $block-grid-default-spacing, true);
+      li {
+        background-color: white;
+        padding: 1em;
+      }
   }
 }

@@ -4,9 +4,13 @@
     margin-bottom: ms(1);
     img {
       border-radius: 100px;
-      max-width: 70%;
+      max-width: 99%;
     }
   }
+}
+
+.speaker-name {
+  margin-top: 20px;
 }
 
 #speakers, #workshops {
