@@ -1,16 +1,16 @@
 .speakers {
   li {
     text-align: center;
-    margin-bottom: ms(1);
+    margin-bottom: emCalc(16px);
     img {
       border-radius: 100px;
-      max-width: 99%;
+      max-width: 70%;
     }
   }
 }
 
 .speaker-name {
-  margin-top: 20px;
+  margin-top: emCalc(16px);
 }
 
 #speakers, #workshops {
