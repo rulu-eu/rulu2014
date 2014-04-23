@@ -8,7 +8,7 @@
   }
   h1 {
     padding-left: -30px;
-    color: #f2f2f2;
+    color: $body-bg;
     font-weight: 700;
     margin-bottom: 0;
     span {
@@ -16,7 +16,7 @@
     }
   }
   .subheader {
-    color: #f2f2f2;
+    color: $body-bg;
     font-family: $body-font-family;
     font-weight: $body-font-weight;
     &+.subheader {
@@ -29,7 +29,7 @@
 
   .top-bar {
     .highlighted a {
-      background-color: #a21d1d !important;
+      background-color: $dark-red !important;
     }
   }
 

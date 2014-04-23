@@ -35,6 +35,9 @@ $topbar-bg: #222;
 $topbar-height: 60px;
 $topbar-margin-bottom: 0;
 
+// Colors
+$dark-red: #a21d1d;
+
 @import 'foundation/components/global'; // *always required
 @import 'foundation/components/grid';
 @import 'foundation/components/visibility';
