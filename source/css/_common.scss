@@ -9,3 +9,12 @@
     }
   }
 }
+
+::selection {
+  color: $body-bg;
+  background: $dark-red;
+}
+::-moz-selection {
+  color: $body-bg;
+  background: $dark-red;
+}
