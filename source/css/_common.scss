@@ -18,3 +18,7 @@
   color: $body-bg;
   background: $dark-red;
 }
+
+.top-bar-section {
+  li:hover a { background: darken($topbar-bg, 2%); }
+}
