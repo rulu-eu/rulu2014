@@ -4,7 +4,7 @@ This year's RuLu venue is [Comédie Odéon](https://maps.google.com/maps?um=1&ie
 
 Comédie Odéon was remodeled two years ago, and the interior is modern where it counts. The sound is clear even on the balcony, and the seats are very comfortable. Speaking of seats, there are plenty of them so you can sit with your friends. There is an attached bar with room for all of us to socialize.
 
-###Getting There###
+###Getting to the Venue###
 
 The most painless way to get to Comédie Odéon is by Metro. On the [TCL](http://www.tcl.fr/) site, your destination is "Cordeliers, Lyon 2eme (Arrêt)". After you arrive at the Cordeliers stop, go east toward the Rhône on Rue Grenette for one block, then turn right on Rue Grolée.
 
