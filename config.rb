@@ -112,6 +112,11 @@ configure :build do
   end
 end
 
+activate :blog do |blog|
+    blog.prefix = "blog"
+    blog.permalink = "blog/{year}/{title}.html"
+end
+
 activate :deploy do |deploy|
   # Deploy using git
   deploy.method = :git

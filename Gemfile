@@ -8,6 +8,7 @@ gem 'middleman-livereload'
 gem 'middleman-deploy'
 gem 'middleman-favicon-maker'
 gem 'middleman-google-analytics'
+gem 'middleman-blog'
 gem 'zurb-foundation', '4.3.1', require: false
 
 # Template engines
