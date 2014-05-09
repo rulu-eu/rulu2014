@@ -1,10 +1,13 @@
+<div class="row">
+  <h1>Blog Posts</h1>
+</div>
 <% blog.articles.each do |article| %>
   <div class="row">
     <article>
-      <h1>
+      <h2>
         <a href="<%= article.url %>"><%= article.title %></a>
         <time><%= article.date.strftime('%b %e %Y') %></time>
-      </h1>
+      </h2>
     </article>
   </div>
 <% end %>
