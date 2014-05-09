@@ -115,7 +115,7 @@ end
 activate :blog do |blog|
     blog.prefix = "blog"
     blog.permalink = "{year}/{title}.html"
-    blog.layout = "layout"
+    blog.layout = "blog-layout"
 end
 
 activate :deploy do |deploy|
