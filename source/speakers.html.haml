@@ -13,13 +13,7 @@ title: Speakers
         .small-9.large-8.columns
           %header
             %h3 Joshua Ballanco
-            %p Joshua has worked with Objective-C since 2002 and Ruby since 2004. He has built operating systems with Apple, local news websites with AOL, and somehow managed to finish a Ph.D. along the way. Currently, Joshua is Chief Scientist at Burnside Digital where he works with an amazing team of engineers and designers to solve problems for a wide range of clients. He works and lives in Ankara.
-            %p
-              Last year, Joshua gave a great talk on
-              = succeed '.' do
-                %a{ href: 'http://iny.r.mailjet.com/redirects/mx6bhjrjsqt3qkbsfncdj8/www.youtube.com/watch?v=U-yxcvAxC6s' } Ruby implementations
-              Welcome back, Josh!
-
+            = partial 'speakers/_joshua'
 
       %article#paolo.row
         .small-3.large-4.columns.text-center
@@ -28,14 +22,7 @@ title: Speakers
         .small-9.large-8.columns
           %header
             %h3 Paolo Perrotta
-            %p
-              Paolo Perrotta has fifteen years of experience as a developer,
-              ranging from embedded to enterprise software, computer games, and web
-              applications. Paolo travels the world to mentor agile teams, and to
-              pair with coders who are better at this coding stuff than he'll ever
-              be. He has a base camp in Bologna, Italy. He wrote the
-              = link_to "Metaprogramming Ruby book", 'http://pragprog.com/book/ppmetr/metaprogramming-ruby'
-              for the Prags.
+            = partial 'speakers/_paolo'
 
       %article#tom.row
         .small-3.large-4.columns.text-center
@@ -44,19 +31,7 @@ title: Speakers
         .small-9.large-8.columns
           %header
             %h3 Tom Stuart
-            %p
-              Tom is a computer scientist and programmer.
-              He has lectured on optimising compilers at the University of Cambridge,
-              co-organises the
-              = succeed ',' do
-                = link_to 'Ruby Manor Conference', 'http://rubymanor.org/'
-              and is a member of the
-              = succeed '.' do
-                = link_to "London Ruby User Group", 'https://twitter.com/lrug'
-              His latest book,
-              = succeed ',' do
-                = link_to "Understanding Computation", 'http://shop.oreilly.com/product/0636920025481.do'
-              was published by O’Reilly in 2013.
+            = partial 'speakers/_tom'
 
       %article#emily.row
         .small-3.large-4.columns.text-center
@@ -65,14 +40,7 @@ title: Speakers
         .small-9.large-8.columns
           %header
             %h3 Emily Stolfo
-            %p
-              Emily is an Engineer / Evangelist with the
-              = link_to "MongoDB", 'http://www.mongodb.org/'
-              Ruby driver team and an adjunct faculty at Columbia University.
-              Before joining MongoDB Inc, Emily worked as a Ruby on Rails developer
-              at a NYC startup but her history with Rails goes back to a research project at Paris’ Louvre Museum.
-              In addition to enjoying programming and art, Emily likes to travel and run
-              when not teaching Rails in her free time.
+            = partial 'speakers/_emily'
 
       %article#yannick.row
         .small-3.large-4.columns.text-center
@@ -81,18 +49,7 @@ title: Speakers
         .small-9.large-8.columns
           %header
             %h3 Yannick Schutz
-            %p
-              Belgian web developer using Ruby, Go
-              or whatever tool/language is needed for the job to be done.
-              He loves coffee, beers and also emojis!
-              - # But it just looks like squares on Google Chrome...
-              - # So here is a snowman just for you ☃.
-              Yannick is the organizer of
-              = succeed ',' do
-                = link_to 'ruby burgers', 'http://rubyburgers.co/'
-              a simple event where you just come,
-              eat a burger and chat with fellow developers.
-              He is a young new dad and love that situation.
+            = partial 'speakers/_yannick'
 
       %article#chris.row
         .small-3.large-4.columns.text-center
@@ -101,15 +58,7 @@ title: Speakers
         .small-9.large-8.columns
           %header
             %h3 Chris Kelly
-            %p
-              Chris believes that flourishing is the key to happiness, servers are
-              an anachronism, and the person that will create SkyNet has already
-              been born. He is an avid Rubyist and spends an inordinate amount of
-              time thinking about the philosophy of software. Chris lives in San
-              Francisco, tweets occasionally, speaks often, and drinks coffee in
-              between. At
-              = link_to 'GitHub', 'https://github.com/'
-              he interacts with humans and computers.
+            = partial 'speakers/_chris'
 
       %article#arnab.row
         .small-3.large-4.columns.text-center
@@ -118,16 +67,7 @@ title: Speakers
         .small-9.large-8.columns
           %header
             %h3 Arnab Deka
-            %p
-              Arnab is currently a Senior Software Engineer at
-              = link_to 'LivingSocial', 'https://www.livingsocial.com/'
-              and has been writing Ruby (i.e. having fun) since 2008.
-              He loves to travel around the world - and has so far experienced living and working
-              in Pune, Bangalore, NYC and Seattle (previously part of the AWS team at Amazon.com).
-              Arnab has been crafting software professionally for 9 years and is more passionate about it every new day!
-              Learn more at
-              = succeed '.' do
-                = link_to 'github.com/arnab', 'https://github.com/arnab'
+            = partial 'speakers/_arnab'
 
       %article#sam.row
         .small-3.large-4.columns.text-center
@@ -136,15 +76,7 @@ title: Speakers
         .small-9.large-8.columns
           %header
             %h3 Sam Phippen
-            %p
-              Sam is a swashbuckling hacker from London, UK.
-              He fixes every size of data problem at
-              = succeed '.' do
-                = link_to 'Fun and Plausible Solutions', 'http://funandplausible.com/'
-              He helps fight for the forces of justice as a member of the
-              = link_to 'RSpec', 'http://rspec.info/'
-              core team.
-              He's sad that he can't hug every cat.
+            = partial 'speakers/_sam'
 
       %article#eloy.row
         .small-3.large-4.columns.text-center
@@ -153,26 +85,7 @@ title: Speakers
         .small-9.large-8.columns
           %header
             %h3 Eloy Durán
-            %p
-              Eloy Durán is a professional gesticulator hailing from Amsterdam
-              where he lives on a houseboat. He has long been working at the intersection
-              of open-source Ruby and Objective-C/Cocoa on open-source projects such as
-              = succeed ',' do
-                = link_to 'RubyCocoa', 'http://rubycocoa.sourceforge.net'
-              = succeed ',' do
-                = link_to 'MacRuby', 'http://macruby.org'
-              and
-              = link_to 'CocoaPods', 'http://cocoapods.org'
-              (the dependency manager for Objective-C projects).
-              This combination has lead to his current job at HipByte where he works on
-              = succeed ',' do
-                = link_to 'RubyMotion', 'http://www.rubymotion.com'
-              bringing the joy of Ruby to OS X and iOS development.
-              You can find him on
-              = link_to 'github', 'https://github.com/alloy'
-              and
-              = succeed '.' do
-                = link_to 'twitter', 'https://twitter.com/alloy'
+            = partial 'speakers/_eloy'
 
       %article#cameron.row
         .small-3.large-4.columns.text-center
@@ -181,14 +94,7 @@ title: Speakers
         .small-9.large-8.columns
           %header
             %h3 Cameron Daigle
-            %p
-              Cameron Daigle is a senior designer/consultant/purveyor-of-common-sense at
-              = succeed ',' do
-                = link_to 'Hashrocket', 'http://hashrocket.com/'
-              a design &amp; development shop that specializes in Ruby on Rails and iOS.
-              He’s been working with both platforms since 1.2 and 2.0, respectively,
-              and has been building for the web since long before that
-              – but through it all has maintained a deep and steadfast love for beautiful user experiences.
+            = partial 'speakers/_cameron'
 
       %article#konstantin.row
         .small-3.large-4.columns.text-center
@@ -197,10 +103,7 @@ title: Speakers
         .small-9.large-8.columns
           %header
             %h3 Konstantin Tennhard
-            %p
-              Konstantin Tennhard is a computer scientist who specializes in developing large scale internet applications.
-              He is passionate about software design, test driven development and all sorts of modern web-technology.
-              His main scientific interest is natural language processing and machine learning.
+            = partial 'speakers/_konstantin'
 
       %article#terence.row
         .small-3.large-4.columns.text-center
@@ -209,15 +112,7 @@ title: Speakers
         .small-9.large-8.columns
           %header
             %h3 Terence Lee
-            %p
-              Terence leads
-              = succeed "'s" do
-                = link_to 'Heroku', 'http://heroku.com/'
-              Ruby Task Force curating the Ruby experience on the platform.
-              He also works some OSS projects such as Ruby (the language), Bundler, as well as helping with the Rails Girls movement.
-              When he's not going to an awesome Heroku or Ruby event, he lives in Austin, TX, the taco capital of America.
-            %p
-              Terence loves Friday hugs, EVERY DAY OF THE WEEK! Give him a big one when you see him!
+            = partial 'speakers/_terence'
 
       %article#pj.row
         .small-3.large-4.columns.text-center
@@ -226,14 +121,7 @@ title: Speakers
         .small-9.large-8.columns
           %header
             %h3 PJ Hagerty
-            %p
-              A Ruby developer for the last 6 years, PJ currently works at
-              = link_to 'Engine Yard', 'https://www.engineyard.com/'
-              as a Community Engineer.
-              Additionally, he organizes the Western New York Ruby Brigade.
-              Traveling to conferences and Ruby meet ups around the US and Canada,
-              PJ likes to spread the word on the importance of community and coding,
-              stressing the importance of outreach and focusing on the human side of being a coder.
+            = partial 'speakers/_pj'
 
       %article#phil.row
         .small-3.large-4.columns.text-center
@@ -242,10 +130,4 @@ title: Speakers
         .small-9.large-8.columns
           %header
             %h3 Phil Nash
-            %p
-              Phil is a Ruby and JavaScript developer from London.
-              He works at
-              = link_to 'Mint Digital', 'http://mintdigital.com/'
-              to, amongst other projects, get beer to your desk on a Friday afternoon.
-              Phil loves test coverage, great beer, hackathons, and gems with puns in their names.
-              Get all four together for maximum points. He once made a pull request to Rails... it's still open.
+            = partial 'speakers/_phil'
