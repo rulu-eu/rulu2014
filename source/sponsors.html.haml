@@ -18,9 +18,15 @@ title: Sponsors
 
         .small-6.large-6.columns
           %header
-            %h3 Mailjet
-            %h5 Real-time Cloud Emailing platform
-            %p
-              %a{ href: 'http://www.mailjet.com', target: '_blank' }
-                Mailjet
-              is a powerful all-in-one cloud email service provider that not only enables our customers to send transactional and marketing email to their contacts but also better understand them, email after email. Our powerful set of APIs allows you to easily accept incoming emails with our ParseAPI and send emails straight from your apps with our SendAPI.
+            = partial 'sponsors/_mailjet'
+
+      %h3 Silver Sponsors
+
+      %article.row
+        .small-6.large-6.columns.text-center
+          %a{ href: 'https://www.drivy.com', target: '_blank' }
+            = image_tag 'sponsors/Drivy_med_nobaseline.png', alt: 'Drivy'
+
+        .small-6.large-6.columns
+          %header
+            = partial 'sponsors/_drivy'
