@@ -9,15 +9,26 @@ title: TICKETS
       RuLu tickets
 
     %p
-      We still have early bird tickets.
-      %b Pick one before this is too late!
+      You're a student? Ask for a student
+      = succeed '!' do
+        %b discount code
+
+    %p
+      You'd like to help to make it awesome? Get a
+      = succeed '!' do
+        %b sponsor ticket
 
     = partial 'weezevent_iframe'
 
     %br
     %br
 
+    = partial 'student_discount'
+    = partial 'sponsor_ticket'
+
+
+    %h4 Any question?
     %p
       Please send an email to
       = link_to 'hello@rulu.eu', 'mailto:hello@rulu.eu'
-      if you have any question regarding the tickets.
+      if you have any question regarding the tickets or the discount codes.
