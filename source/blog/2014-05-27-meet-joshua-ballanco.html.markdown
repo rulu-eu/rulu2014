@@ -1,6 +1,6 @@
 ---
 title: Meet Joshua Ballanco
-date: 2014-05-28 9:05 UTC
+date: 2014-05-27 9:05 UTC
 tags: speakers
 ---
 
