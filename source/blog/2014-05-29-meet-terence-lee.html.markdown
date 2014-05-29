@@ -1,6 +1,6 @@
 ---
 title: Meet Terence Lee
-date: 2014-05-30 9:05 UTC
+date: 2014-05-29 6:00 UTC
 tags: speakers
 ---
 
