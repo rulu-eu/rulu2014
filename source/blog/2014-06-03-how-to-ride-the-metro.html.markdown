@@ -40,7 +40,7 @@ and lots more.
 
 The tickets are good for an hour, unlike the Paris Métro where a ticket is good
 for a single ride. This makes it possible to use a single ticket for a quick
-trip to the store or to make an reservation for a tour. 
+trip to the store or to make a reservation for a tour.
 
 The transit police are very effective and have a little gadget that can print a
 fine slip on the spot if you don't have a ticket or your ticket is invalid.
