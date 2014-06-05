@@ -11,17 +11,24 @@ appetite-enhancing 20 minute walk or a short Métro ride from the Comédie Odéo
 to Café 203, a comfortable place to fill your stomach and enjoy some
 conversation with your fellow Rubyists.
 
+![Café 203](cafe203.jpg)
+
+RuLu will cover your first drink, and you can order appetizers or an entire
+meal if you wish.
+
 ###Les Burgers###
 Hamburgers are quite popular in France, and with Lyon's gastronomic tradition
 there are some really amazing burgers to be found. Some consider the burgers at
-Café 203 to be the best in Lyon, though you can order more traditional snacks
-and meals if you like. 
+Café 203 to be the best in Lyon, though you can order more traditional food if
+you like. 
+
+![burger](burger-lyonnais.jpg)
 
 ###Routes.rb###
 There will be at least two groups going to the after party, one walking and one
 taking the Metro. Choose a group and follow the leader. If you want to be more
-independent, use your map app of choice to find **9 rue du Garet, 6901 Lyon**
-or look at [this Google
+independent, use your map app of choice to find **9 rue du Garet, 69001 Lyon**
+or look at [this 
 map](https://maps.google.com/maps?um=1&ie=UTF-8&fb=1&q=Caf%C3%A9+203&cid=7089667557773288959&sa=X&ei=CHqQU9LiKMGj0QXH_YCwAw&ved=0CKIBEPwSMAs).
 
 ###*See you there!*###
