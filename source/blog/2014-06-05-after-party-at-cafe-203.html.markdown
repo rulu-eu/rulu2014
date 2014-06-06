@@ -22,7 +22,7 @@ there are some really amazing burgers to be found. Some consider the burgers at
 Café 203 to be the best in Lyon, though you can order more traditional food if
 you like. 
 
-![burger](burger-lyonnais.jpg)
+![burger](burger.jpg 'http://commons.wikimedia.org/wiki/File:Veggie_burger_flickr_user_bradleyj_creative_commons.jpg')
 
 ###Routes.rb###
 There will be at least two groups going to the after party, one walking and one
