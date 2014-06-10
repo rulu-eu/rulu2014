@@ -4,7 +4,6 @@ date: 2014-06-02 6:00 UTC
 tags: speakers
 ---
 
-# Meet Cameron Daigle
 <div class="text-center">
   <img src="/img/speakers/cameron.jpeg" class="rounded"/>
 </div>

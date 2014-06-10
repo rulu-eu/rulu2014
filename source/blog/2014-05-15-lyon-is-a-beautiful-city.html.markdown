@@ -4,7 +4,6 @@ date: 2014-05-15 10:21 UTC
 tags:
 ---
 
-##Lyon is a Beautiful City##
 Hopefully you have reserved some time to enjoy the city before and/or after RuLu. [Lyon](https://en.wikipedia.org/wiki/Lyon) has a long and fascinating history. In the present, though, Lyon is the gastronomic capital of France as well as being designated a UNESCO World Heritage site.
 
 ##Fête de la Musique in Lyon##

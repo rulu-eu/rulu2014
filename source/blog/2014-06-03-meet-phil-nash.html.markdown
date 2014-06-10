@@ -4,7 +4,6 @@ date: 2014-06-03 6:00 UTC
 tags: speakers
 ---
 
-# Meet Phil Nash
 <div class="text-center">
   <img src="/img/speakers/phil.jpeg" class="rounded"/>
 </div>

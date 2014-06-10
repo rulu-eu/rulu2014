@@ -4,11 +4,10 @@ date: 2014-05-15 19:05 UTC
 tags:
 ---
 
-##Travel and Lodging##
 Before you can enjoy the wonder of the RuLu conference, you have to get to Lyon. Sleeping indoors always makes a conference more enjoyable as well. We'd like to help with both of those pursuits.
 
 ##Getting to Lyon##
-If you're nearby, you can take a regional train (TER). From a little farther away, the TGV is your best bet. Out of TGV range? You'll be flying into Lyon's Saint Exupéry Airport. 
+If you're nearby, you can take a regional train (TER). From a little farther away, the TGV is your best bet. Out of TGV range? You'll be flying into Lyon's Saint Exupéry Airport.
 
 ###By Train###
 In the  Rhône-Alpes region, the TER trains are cheap and convenient. Rserve your ticket on the [SNCF](http://www.voyages-sncf.com/) site. Your destination is Lyon Part-Dieu, which is convenient because it is a transport hub with connections to busses, trams, and the Metro system.
@@ -32,7 +31,7 @@ help too. The conference venue is on the peninsula near the center of the city,
 in the 2nd Arrondissement.
 
 ###Sleepability###
-Bellecour isn't too noisy unless there is an event there, like the [Fête de la Musique](http://www.fetedelamusique.culture.fr/en/International/presentation/). Which is on the 21st, so if you don't plan to get out and enjoy the music, you might not want to stay too close to the places where bands are playing. 
+Bellecour isn't too noisy unless there is an event there, like the [Fête de la Musique](http://www.fetedelamusique.culture.fr/en/International/presentation/). Which is on the 21st, so if you don't plan to get out and enjoy the music, you might not want to stay too close to the places where bands are playing.
 Vieux Lyon has a ton of character, and it's also full of restaurants bars so you can expect noisy people to be leaving those bars around closing time. If you're planning to close the bars yourself, cool! The apartments and hotels in Vieux Lyon are old and interesting and charming.
 Near Gare Part-Dieu there are a lot of hotels that don't generally have so much character, but they are close to transportation, and also close to [Les Halles de Lyon - Paul Bocuse](http://www.hallespaulbocuse.lyon.fr/) where you can have a spectacular culinary experience. Remember that the trains run at night also, and pay attention to the location of the tracks relative to your hotel.
-Of course there are many neighborhoods in Lyon and this is not an exhaustive list. 
+Of course there are many neighborhoods in Lyon and this is not an exhaustive list.

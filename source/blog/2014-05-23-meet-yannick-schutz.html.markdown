@@ -4,7 +4,6 @@ date: 2014-05-23 19:05 UTC
 tags: speakers
 ---
 
-# Meet Yannick Schutz
 <div class="text-center">
   <img src="/img/speakers/yannick.jpeg" class="rounded"/>
 </div>

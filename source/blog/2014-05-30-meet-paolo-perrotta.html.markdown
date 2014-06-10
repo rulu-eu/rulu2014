@@ -4,7 +4,6 @@ date: 2014-05-30 6:00 UTC
 tags: speakers
 ---
 
-# Meet Paolo Perrotta
 <div class="text-center">
   <img src="/img/speakers/paolo.jpeg" class="rounded"/>
 </div>

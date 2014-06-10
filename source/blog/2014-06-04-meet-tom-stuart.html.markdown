@@ -4,7 +4,6 @@ date: 2014-06-04 6:00 UTC
 tags: speakers
 ---
 
-# Meet Tom Stuart
 <div class="text-center">
   <img src="/img/speakers/tom.jpeg" class="rounded"/>
 </div>

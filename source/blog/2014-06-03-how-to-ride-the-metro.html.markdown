@@ -4,7 +4,6 @@ date: 2014-06-03 14:10 UTC
 tags:
 ---
 
-##How to Ride the Métro in Lyon##
 [Lyon's Métro system](http://www.tcl.fr/Decouvrir-TCL/Le-reseau) is newer than
 the one in Paris, and it shows. Many of the trains are driverless, the cars are
 newer and more comfortable, and the tracks are smooth. There are also three
@@ -19,7 +18,7 @@ and Android to help you find your way. They're useful even if you don't speak
 French.
 
 ###Step 1: Buy a ticket###
-On the weekend you might want to get a [Day 
+On the weekend you might want to get a [Day
 Pass](http://www.tcl.fr/Tarifs/Tickets/Tickets-Liberte/Ticket-Liberte-1-jour)
 so you can ride all you want without interruptions to buy another ticket. The
 day pass costs about the same as three
@@ -27,7 +26,7 @@ day pass costs about the same as three
 so it's a pretty good deal if you're planning to take two round-trips or more
 in a single day.  For the days of RuLu, though, you might split a [Carnet of 10
 tickets](http://www.tcl.fr/Tarifs/Tickets/Ticket-a-l-unite/Carnets-de-10-tickets)
-with a friend (you **are** bringing friends, aren't you?) and you'll 
+with a friend (you **are** bringing friends, aren't you?) and you'll
 have enough tickets to get from where you're sleeping to RuLu and back for both
 days. The extra ticket will get you to the after-party if you don't want to
 walk.
@@ -35,7 +34,7 @@ walk.
 If you're planning to see **all** of the sights, the [Lyon City
 Card](http://www.lyon-france.com/Lyon-City-Card/Commandez-votre-Lyon-City-Card)
 might work for you. It is a day pass that also includes museum entry, tours,
-and lots more.  
+and lots more.
 ![all the things meme](allthesights.jpg)
 
 The tickets are good for an hour, unlike the Paris Métro where a ticket is good
@@ -59,11 +58,11 @@ just outside the station in both places.
 On the Métro, you will use your ticket to get to the platform after you go
 downstairs into the station. On the tram and bus, look for a grey box just
 above waist level near the doors and validate your ticket. If all else fails,
-watch what everyone else does and do that. 
+watch what everyone else does and do that.
 
 On the trams, you may have to press the button on the door if the driver
 doesn't open all doors. On the buses, there are buttons near the back doors and
-in the aisle to request a stop. 
+in the aisle to request a stop.
 
 ###A Few More Details###
 The trams and buses stay to the right, but the Métro is the opposite. Some
