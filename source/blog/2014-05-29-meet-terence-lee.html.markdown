@@ -4,7 +4,6 @@ date: 2014-05-29 6:00 UTC
 tags: speakers
 ---
 
-# Meet Terence Lee
 <div class="text-center">
   <img src="/img/speakers/terence.jpeg" class="rounded"/>
 </div>

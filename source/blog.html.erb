@@ -1,13 +1,44 @@
 <div class="row">
   <h1>Blog Posts</h1>
-</div>
-<% blog.articles.each do |article| %>
   <div class="row">
-    <article>
-      <h2>
-        <a href="<%= article.url %>"><%= article.title %></a>
-        <time><%= article.date.strftime('%b %e %Y') %></time>
-      </h2>
-    </article>
+    <div class="small-12 large-10 columns">
+      <div class="small-12 large-6 columns">
+        <ul>
+          <% blog.articles.select { |a| a.title["Meet"].nil? }.each do |article| %>
+          <li>
+            <a href="<%= article.url %>"><%= article.title %></a>
+          </li>
+          <% end %>
+        </ul>
+      </div>
+
+      <div class="small-12 large-6 columns">
+        <ul>
+          <% blog.articles.select { |a| a.title["Meet"] }.each do |article| %>
+          <li>
+            <a href="<%= article.url %>"><%= article.title %></a>
+          </li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
   </div>
-<% end %>
+  <hr/>
+
+  <% blog.articles.each do |article| %>
+    <div class="row">
+      <div class="small-12 large-10 columns">
+        <article>
+          <h2>
+            <a href="<%= article.url %>"><%= article.title %></a>
+            <small>
+              <time><%= article.date.strftime('%b %e %Y') %></time>
+            </small>
+          </h2>
+          <%= article.body %>
+        </article>
+      </div>
+    </div>
+    <hr/>
+  <% end %>
+</div>

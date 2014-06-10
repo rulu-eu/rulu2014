@@ -1,6 +1,12 @@
 <% wrap_layout :layout do %>
   <div class="row">
     <div class="small-12 large-10 columns">
+      <h2>
+        <a href="<%= current_article.url %>"><%= current_article.title %></a>
+        <small>
+          <time><%= current_article.date.strftime('%b %e %Y') %></time>
+        </small>
+      </h2>
       <%= yield %>
     </div>
 
@@ -12,7 +18,11 @@
         </p>
         <p>
           RuLu 2014 takes place in Lyon, France on June 19th and 20th.
-          <a href="/">Get your ticket!</a>
+        Have a look at
+        <%= link_to 'the talks', '/speakers' %>,
+        read
+        <%= link_to 'the blog', '/blog' %></li> and
+        <a href="/">get your ticket</a>!
         </p>
       </div>
     </div>

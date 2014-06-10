@@ -4,7 +4,6 @@ date: 2014-05-27 9:05 UTC
 tags: speakers
 ---
 
-# Meet Joshua Ballanco
 <div class="text-center">
   <img src="/img/speakers/joshua.jpeg" class="rounded"/>
 </div>

@@ -4,7 +4,6 @@ date: 2014-05-25 09:05 UTC
 tags: speakers
 ---
 
-# Meet PJ Hagerty
 <div class="text-center">
   <img src="/img/speakers/pj.jpeg" class="rounded"/>
 </div>
