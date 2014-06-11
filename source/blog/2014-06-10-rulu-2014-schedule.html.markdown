@@ -1,0 +1,21 @@
+---
+title: RuLu 2014 Schedule
+date: 2014-06-10 18:31 UTC
+tags:
+---
+
+The schedule has been posted for RuLu 2014. Check it out [here](/schedule) and
+start making your plans.
+
+![Venue picture](comedie-odeon.jpg "Comédie Odéon auditorium")
+
+The talks are 30 minutes long, with a 20 minute break between talks. Lunch will
+be provided on Thursday the 19th, and Friday (the 20th) you are free to partake
+of the local cuisine; there are at least 50 restaurants within walking distance
+so you can surely find something to your taste. The organizers and members of
+LyonRB will be happy to help you find whatever cuisine you're looking for.
+
+After lunch on Friday, come back to Comédie Odéon for the discussion of the
+future of Ruby, a panel with audience (that's you!) participation. The
+discussion is scheduled for two hours.
+
