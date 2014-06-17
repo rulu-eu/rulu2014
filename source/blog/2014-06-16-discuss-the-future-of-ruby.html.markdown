@@ -12,7 +12,7 @@ The atmosphere will be casual and inclusive. To ensure that, we will meet at
 [La Goutte](http://comptoir-lagoutte.com/) for this discussion, where you can
 enjoy a snack and a beverage while we talk if you like.
 
-![la goutte](la-goutte.jpg 'la goutte cafe')
+![la goutte](/img/la-goutte.jpg 'la goutte cafe')
 
 Some possible topics for this discussion are
 

@@ -35,7 +35,7 @@ If you're planning to see **all** of the sights, the [Lyon City
 Card](http://www.lyon-france.com/Lyon-City-Card/Commandez-votre-Lyon-City-Card)
 might work for you. It is a day pass that also includes museum entry, tours,
 and lots more.
-![all the things meme](allthesights.jpg)
+![all the things meme](/img/allthesights.jpg)
 
 The tickets are good for an hour, unlike the Paris Métro where a ticket is good
 for a single ride. This makes it possible to use a single ticket for a quick

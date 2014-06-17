@@ -7,7 +7,7 @@ tags:
 The schedule has been posted for RuLu 2014. Check it out [here](/schedule) and
 start making your plans.
 
-![Venue picture](comedie-odeon.jpg "Comédie Odéon auditorium")
+![Venue picture](/img/comedie-odeon.jpg "Comédie Odéon auditorium")
 
 The talks are 30 minutes long, with a 20 minute break between talks. Lunch will
 be provided on Thursday the 19th, and Friday (the 20th) you are free to partake
