@@ -1,7 +1,7 @@
 ---
 title: Sponsors
 ---
-%section
+%section.sponsors
   .row
     .small-12.large-10.columns
       %p
@@ -30,3 +30,12 @@ title: Sponsors
         .small-6.large-6.columns
           %header
             = partial 'sponsors/_drivy'
+
+      %article.row
+        .small-6.large-6.columns.text-center
+          %a{ href: 'http://www.amadeus.com', target: '_blank' }
+            = image_tag 'sponsors/amadeus.png', alt: 'Amadeus'
+
+        .small-6.large-6.columns
+          %header
+            = partial 'sponsors/_amadeus'
