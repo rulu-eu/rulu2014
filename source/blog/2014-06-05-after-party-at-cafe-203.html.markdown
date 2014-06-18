@@ -1,8 +1,13 @@
 ---
-title: After Party at Café 203
+title: After Party
 date: 2014-06-05 11:42 UTC
 tags:
 ---
+
+UPDATE: The party venue has changed. We're now going to the Ayers Rock Boat.
+New address is 21 Quai Victor Augagneur 69003 Lyon.
+Best way not to get lost: check [the map](https://www.google.fr/maps/preview?q=ayer%27s+rock+boat+lyon&ie=UTF-8&ei=TsGhU5-JD8ey0QXp24DoDQ&ved=0CAYQ_AUoAQ).
+
 
 A great conference deserves a great party, so after the last talk on the 19th
 we will adjourn to Café 203 to drink, dine, and unwind. It's an
