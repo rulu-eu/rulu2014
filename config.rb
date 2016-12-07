@@ -60,7 +60,7 @@ configure :development do
 
   # Disable Google Analytics
   activate :google_analytics do |ga|
-    ga.tracking_id = false
+    ga.tracking_id = 'null'
   end
 end
 
